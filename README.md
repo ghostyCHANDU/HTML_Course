@@ -1,91 +1,33 @@
-# HTML Course - Learning Repository
+# HTML Course - Complete Learning Repository
 
-A comprehensive collection of HTML learning materials and practice files covering fundamental to intermediate HTML concepts.
+A well-organized, comprehensive HTML learning course with 60+ practice files organized by topic and difficulty level.
 
-## Overview
+## 📚 Repository Structure
 
-This repository contains 60+ HTML files organized by topic, designed to teach and demonstrate various HTML elements, attributes, and styling techniques. Perfect for beginners learning HTML and for reference purposes.
+```
+HTML_Course/
+├── 01-basics/                    # Basic HTML fundamentals
+├── 02-headings/                  # Heading levels and usage
+├── 03-elements/                  # HTML elements & tags
+├── 04-text-formatting/           # Text styling, formatting, paragraphs
+├── 05-colors/                    # Color models (names, hex, RGB, HSL)
+├── 06-tables/                    # Tables with various border styles
+├── 07-shapes-graphics/           # CSS shapes and graphics
+├── 08-images-maps/               # Image maps and usage
+├── 09-advanced/                  # Advanced HTML topics
+├── 10-tests-exercises/           # Challenge exercises
+├── assets/
+│   ├── images/                   # Reference images
+│   └── documents/                # PDF guides
+└── docs/
+    ├── README.md                 # Main documentation
+    ├── QUICKSTART.md             # Get started in 5 minutes
+    ├── LEARNING_GUIDE.md         # 7-week curriculum
+    ├── CONTRIBUTING.md           # Contribution guidelines
+    └── INDEX.md                  # Complete file index
+```
 
-## 📚 Topics Covered
-
-### 1. **HTML Basics**
-- `my first html.html` - First program introduction
-- `index1.1..html` - Basic HTML structure and paragraphs
-- `index1.2.html` - Additional HTML fundamentals
-- `index1.3.html` - More basic concepts
-- `index1.4.html` - HTML structure examples
-- `index1.5.html` - Introduction exercises
-
-### 2. **Headings & Document Structure**
-- `head.html` - Heading levels (h1-h6)
-- `head7.2.html` - Advanced heading usage
-- `head7.4.html` - Heading best practices
-- `ele5.1.html` - HTML elements
-- `ele5.2.html` - Element variations
-- `ele5.3.html` - Element demonstrations
-
-### 3. **Text Formatting & Styling**
-- `format all tags.html` - All formatting tags reference
-- `format10.1.html` - Text formatting examples
-- `html-formatting-tags.html` - Comprehensive formatting guide
-- `text6.1.html` - Text styling level 1
-- `text6.2.html` - Text styling level 2
-- `text6.3.html` - Text styling level 3
-- `text6.4.html` - Text styling level 4
-- `text6.5.html` - Text styling level 5
-- `quotation.html` - Quotation and citation tags
-
-### 4. **Colors**
-- `color1.1.html` - Basic color names
-- `color5.html` - Color concepts
-- `color table4.html` - Color reference table
-- `hex color.html` - Hexadecimal color codes
-- `RGB colors1.html` - RGB color model
-- `RGB4.html` - RGB variations
-- `hsl color.html` - HSL color model
-- `hsl color3.html` - HSL variations
-
-### 5. **Tables**
-- `table.html` - Basic table structure
-- `table border.html` - Tables with borders
-- `bordertable.html` - Border styling
-- `50 student table.html` - Large table example
-- `dashedtable.html` - Dashed border tables
-- `dottedtable.html` - Dotted border tables
-- `doubletable.html` - Double border tables
-- `groovetable.html` - Groove border style
-- `insettable.html` - Inset border style
-- `outsettable.html` - Outset border style
-- `ridgetable.html` - Ridge border style
-- `hiddentable.html` - Hidden border style
-- `nonetable.html` - No border tables
-
-### 6. **Shapes & Graphics**
-- `triangle.html` - Creating triangles
-- `allshapes.html` - Various shape examples
-- `multishapes.html` - Multiple shapes
-- `myownshape.html` - Custom shape creation
-- `roundtable.html` - Rounded shape elements
-
-### 7. **Images & Image Maps**
-- `imagemap.html` - Image map basics
-- `usemap.html` - Using image maps
-
-### 8. **Advanced Topics**
-- `para8.1.html` - Paragraph concepts 1
-- `para8.4.html` - Paragraph concepts 4
-- `para8.5.html` - Paragraph concepts 5
-- `index2.1.html` - Advanced HTML 1
-- `index2.3.html` - Advanced HTML 3
-- `index2.4.html` - Advanced HTML 4
-- `style9.1.html` - Styling introduction
-- `test4.1.html` through `test4.5.html` - Test exercises
-
-### 9. **Supporting Files**
-- `III. Styling & Linking.pdf` - Reference material on CSS and linking
-- Image files (`.png`, `.jpg`, `.jpeg`) - Visual reference materials
-
-## 🚀 How to Use
+## 🚀 Quick Start
 
 1. **Clone the repository:**
    ```bash
@@ -93,76 +35,172 @@ This repository contains 60+ HTML files organized by topic, designed to teach an
    cd HTML_Course
    ```
 
-2. **View the files:**
-   - Open any `.html` file directly in your web browser
-   - Right-click on the file and select "Open with" → your browser
-   - Or use a local server: `python -m http.server 8000`
+2. **Start learning:**
+   - Open any `.html` file in your browser
+   - Begin with `01-basics/01-introduction.html`
+   - Follow the [Learning Guide](docs/LEARNING_GUIDE.md)
 
-3. **Learn progressively:**
-   - Start with `my first html.html` and basic files
-   - Progress through topics in the order listed above
-   - Reference specific files as needed for particular concepts
+3. **For detailed instructions:**
+   - See [QUICKSTART.md](docs/QUICKSTART.md) for setup
+   - See [README.md](docs/README.md) for overview
+   - See [INDEX.md](docs/INDEX.md) for file reference
 
-4. **Experiment:**
-   - Modify the HTML files to understand how changes affect output
-   - Create your own variations to practice concepts
+## 📖 Documentation
 
-## 📋 Prerequisites
+All documentation has been moved to the `docs/` folder:
 
-- Web browser (Chrome, Firefox, Safari, Edge, etc.)
-- Text editor (VS Code, Sublime Text, Notepad++, etc.)
-- Basic familiarity with computers
+- **[README.md](docs/README.md)** - Complete project overview & topic breakdown
+- **[QUICKSTART.md](docs/QUICKSTART.md)** - Setup & getting started (5 minutes)
+- **[LEARNING_GUIDE.md](docs/LEARNING_GUIDE.md)** - Structured 7-week curriculum
+- **[CONTRIBUTING.md](docs/CONTRIBUTING.md)** - How to contribute
+- **[INDEX.md](docs/INDEX.md)** - Complete file listing & reference
 
-## 🎯 Learning Path
+## 📂 What's in Each Folder
 
-**Beginner Level:**
-1. HTML Basics (index1.1 - index1.5)
-2. Headings (head.html)
-3. Text Formatting (format all tags.html)
-4. Colors (color1.1, hex color, RGB colors)
+### 01-basics/
+Basic HTML concepts - start here!
+- Introduction, structure, fundamentals, concepts, examples, exercises
 
-**Intermediate Level:**
-1. Tables (basic table → various border styles)
-2. Paragraphs (para8.1 - para8.5)
-3. Advanced elements (ele5.1 - ele5.3)
-4. Shapes and graphics
+### 02-headings/
+Heading levels and best practices
+- h1-h6 levels, advanced usage, best practices
 
-**Advanced Level:**
-1. Image maps (imagemap, usemap)
-2. Advanced styling (style9.1)
-3. Complex layouts (index2.1 - index2.4)
-4. Test exercises (test4.1 - test4.5)
+### 03-elements/
+HTML elements and tags
+- Element basics, variations, demonstrations
 
-## 📖 File Naming Convention
+### 04-text-formatting/
+Text formatting and paragraphs
+- Formatting tags, styling levels, quotations, paragraphs
 
-Files are organized by topic with numbered sequences:
-- Basic files: `index*.html`
-- Topic-specific: `color*.html`, `table*.html`, `text*.html`, etc.
-- Advanced: `para*.html`, `ele*.html`
-- Tests: `test*.html`
+### 05-colors/
+Color models and palettes
+- Names, concepts, hex codes, RGB values, HSL model
 
-## 💡 Tips for Learning
+### 06-tables/
+Tables with comprehensive border styling
+- Basic tables, 9 different border styles, large data tables
 
-- Open files in your browser to see the output
-- Inspect the HTML source code to understand the structure
-- Modify values and styles to see immediate effects
-- Use the PDF document for additional reference material
-- Compare similar files to understand variations
+### 07-shapes-graphics/
+CSS shape creation
+- Triangles, all shapes, multiple shapes, custom shapes, rounded shapes
 
-## 🤝 Contribution
+### 08-images-maps/
+Image handling and maps
+- Image mapping, usemap implementation
 
-Feel free to:
-- Report issues or suggest improvements
-- Add new examples or better documentation
-- Share helpful resources related to HTML learning
-- Use this repository as a base for your own learning
+### 09-advanced/
+Advanced HTML concepts
+- Advanced HTML layouts, CSS styling introduction
 
-## 📞 Support
+### 10-tests-exercises/
+Challenge exercises
+- 5 progressive test exercises
 
-For questions about HTML:
-- Check the W3Schools HTML reference: https://www.w3schools.com/html/
-- Mozilla Developer Network: https://developer.mozilla.org/en-US/docs/Web/HTML
-- HTML5 Specification: https://html.spec.whatwg.org/
+### assets/
+Supporting files
+- **images/** - Reference and demo images
+- **documents/** - PDF guides and resources
+
+## 🎯 Learning Paths
+
+**Beginner (1-2 weeks):**
+1. 01-basics/ (all files)
+2. 02-headings/ (all files)
+3. 04-text-formatting/ (formatting, styling)
+4. 05-colors/ (color names, hex)
+
+**Intermediate (2-3 weeks):**
+1. 06-tables/ (basic → borders)
+2. 04-text-formatting/ (paragraphs)
+3. 07-shapes-graphics/ (all files)
+
+**Advanced (1-2 weeks):**
+1. 08-images-maps/ (all files)
+2. 09-advanced/ (all files)
+3. 10-tests-exercises/ (all files)
+
+## 📊 Course Statistics
+
+- **Total HTML Files:** 60+
+- **Organized Sections:** 10
+- **Topics Covered:** Colors, Tables, Text, Shapes, Images & more
+- **Supporting Assets:** Images, PDFs, References
+- **Documentation Files:** 5 comprehensive guides
+- **Estimated Learning Time:** 7-8 weeks
+
+## 💻 How to Use Files
+
+### In Browser:
+```bash
+# Simply double-click any .html file
+# OR right-click → Open with → Browser
+```
+
+### With Python Server (Recommended):
+```bash
+cd HTML_Course
+python -m http.server 8000
+# Visit http://localhost:8000
+```
+
+### In VS Code:
+1. Open folder in VS Code
+2. Right-click any .html file
+3. Select "Open in Default Browser"
+4. Or use "Live Server" extension
+
+## 📝 File Naming Convention
+
+All files follow a consistent naming pattern:
+
+```
+[XX]-[topic]/[order]-[description].html
+
+Examples:
+01-basics/01-introduction.html
+06-tables/07-table-groove-border.html
+05-colors/04-hex-colors.html
+```
+
+## 🎓 Key Concepts Covered
+
+✅ **HTML Basics** - Document structure, tags, attributes
+✅ **Headings** - Semantic heading hierarchy
+✅ **Text Formatting** - Bold, italic, emphasis, citations
+✅ **Colors** - Names, hex, RGB, HSL models
+✅ **Tables** - Structure, borders, styling
+✅ **Graphics** - CSS shapes and designs
+✅ **Images** - Maps and clickable regions
+✅ **Advanced** - Complex layouts and CSS
+
+## 🔍 Finding Files
+
+### By Difficulty:
+- **Beginner:** 01-basics/, 02-headings/
+- **Intermediate:** 04-text-formatting/, 05-colors/, 06-tables/
+- **Advanced:** 08-images-maps/, 09-advanced/, 10-tests-exercises/
+
+### By Topic:
+- Colors → 05-colors/
+- Tables → 06-tables/
+- Text → 04-text-formatting/
+- Shapes → 07-shapes-graphics/
+
+## 🤝 Contributing
+
+Want to improve this course? See [CONTRIBUTING.md](docs/CONTRIBUTING.md) for:
+- How to contribute
+- Coding standards
+- Pull request guidelines
+- Documentation standards
+
+## 📚 External Resources
+
+- [W3Schools HTML](https://www.w3schools.com/html/)
+- [MDN HTML Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML5 Specification](https://html.spec.whatwg.org/)
+- [HTML Validator](https://validator.w3.org/)
 
 ## 📄 License
 
@@ -170,6 +208,21 @@ This repository is for educational purposes.
 
 ---
 
+## Getting Started
+
+**New to HTML?** Start here:
+
+1. Read [QUICKSTART.md](docs/QUICKSTART.md) - 5 minutes
+2. Open `01-basics/01-introduction.html` in your browser
+3. Follow [LEARNING_GUIDE.md](docs/LEARNING_GUIDE.md) for structure
+4. Experiment by modifying files and exploring
+
+**Want more info?** Check [README.md](docs/README.md) in the docs folder.
+
+**Need help?** See [supporting resources](docs/README.md#support) for external help.
+
+---
+
 **Happy Learning! 🎓**
 
-Start with the basics and progressively work your way through the topics. Each file builds upon the concepts from previous files.
+Begin your HTML journey today with our well-organized, comprehensive course materials.
